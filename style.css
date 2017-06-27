@@ -40,14 +40,15 @@ ul a{
 }
 
 .our-mission{
-    display: flex;
-    align-items: center;
+    display: flex;    
     justify-content: center;
+    width: 100%;
 }
 .mission-img{
     background-image: url(img-mission-background.jpg)
 }
 
-.mission{
+.mission {
+    display: inline-block;
     height: 700px;
 }
