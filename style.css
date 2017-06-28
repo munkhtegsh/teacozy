@@ -17,17 +17,17 @@ header{
     height: 69px;
     border-bottom: 1px solid seashell;
 
+
 }
 
-.logo{
-    color: white;
-    font-family: 'Shadows Into Light', cursive;
-    font-weight: 700px;
-    font-size: 50px;
-    margin-left: 10px;
+header img{
+    height: 50px;
+    padding-left: 10px;
 }
 
 nav{
+    display: flex;
+    margin-right: 10px
 
 }
 
@@ -41,14 +41,115 @@ ul a{
 
 .our-mission{
     display: flex;    
+    align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 90%;
+    margin: auto;
+
 }
 .mission-img{
-    background-image: url(img-mission-background.jpg)
+    background-image: url(img-mission-background.jpg);
+    height: 700px;
+    
 }
 
-.mission {
-    display: inline-block;
-    height: 700px;
+.content{
+    width:100%;
+    background-color: black;
 }
+
+.content h2, h5{
+    text-align: center;
+}
+
+.tea-month{
+    width: 1000px;
+
+}
+
+.steeping{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+.steeping img{
+    height: 200px;
+    width: 300px;
+    padding:0px 10px;
+}
+
+.steeping h5{
+    margin-top: 10px;
+}
+
+
+.store{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tea-month h2{
+    margin-bottom:10px;
+}
+
+.tea-month h3{
+    margin-top: 5px;
+}
+
+.locations{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+.image{
+    background-image: url(img-locations-background.jpg);
+    height: 500px;
+    background-size: cover;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    width: 980px;
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    margin: 0px 20px;
+
+}
+
+.box h3, p{
+    text-align: center;
+}
+
+.box h3{
+    padding-top: 15px;
+}
+
+.contact{
+    height: 200px;
+}
+
+footer h2{
+    text-align: center;
+}
+
+copy{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+
