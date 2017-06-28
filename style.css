@@ -57,8 +57,7 @@ ul a{
 }
 .mission-img{
     background-image: url(img-mission-background.jpg);
-    height: 700px;
-    
+    height: 700px;    
 }
 
 .content{
@@ -71,8 +70,10 @@ ul a{
 }
 
 .tea-month{
-    width: 1000px;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .steeping{
